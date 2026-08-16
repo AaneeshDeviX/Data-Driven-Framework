@@ -8,7 +8,7 @@ public class TestProperties {
 
 	public static void main(String[] args) throws IOException {
 
-		//It will populate the path upto - /home/runner/eclipse-workspace/DataDrivenFramework
+		//It will populate the project root path
 		//For Achieving generic path eventhough there is a change in the path
 
 		System.out.println(System.getProperty("user.dir"));

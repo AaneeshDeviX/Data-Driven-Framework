@@ -506,7 +506,7 @@ public class ExcelReader {
 		ExcelReader datatable = null;
 		
 
-			 datatable = new ExcelReader("/home/runner/eclipse-workspace/DataDrivenFramework/src/main/resources/Excel/testdata.xlsx");
+			 datatable = new ExcelReader("src/main/resources/Excel/testdata.xlsx");
 				for(int col=0 ;col< datatable.getColumnCount("TC5"); col++){
 					System.out.println(datatable.getCellData("TC5", col, 1));
 				}
